@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeBand - Pulsera Localizadora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #a8e6cf, #dcedc1); /* Fondo con gradiente */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0; /* Aumento el espacio entre secciones */
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para mayor contraste */
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .cta-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .cta-button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+        .image-wrapper {
+            display: flex;
+             justify-content: center; /* Centra las imágenes horizontalmente */
+   	     align-items: center; /* Centra las imágenes verticalmente */
+            gap: 20px;
+        }
+
+        .image-wrapper img {
+            width: 48%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SafeBand - Pulsera Localizadora</h1>
+    <p>Seguridad y localización para personas mayores</p>
+</header>
+
+<section>
+    <h2>¿Qué es SafeBand?</h2>
+    <p>SafeBand es una pulsera localizadora diseñada para proporcionar seguridad y tranquilidad a las personas mayores. Con su función de alerta y localización en tiempo real, SafeBand permite a los usuarios y a sus seres queridos mantenerse conectados de manera eficiente.</p>
+    <div class="image-wrapper">
+        <img class="product-image" src="C:\Users\delco\OneDrive\Imágenes\pulsera.jpg" alt="SafeBand Pulsera Localizadora">
+       
+    </div>
+</section>
+
+<section>
+    <h2>Funciones Clave</h2>
+    <ul>
+        <li><strong>Botón de Alerta:</strong> Un pulsador de emergencia que envía una notificación inmediata a los familiares en caso de necesidad.</li>
+        <li><strong>Localización GPS:</strong> Ubicación precisa de la persona a través del GPS integrado.</li>
+        <li><strong>Conexión Bluetooth:</strong> Conexión inalámbrica con tu teléfono móvil para monitorear la ubicación y el estado.</li>
+        <li><strong>Batería recargable:</strong> Duración de hasta 12 horas con una sola carga.</li>
+    </ul>
+    <div class="image-wrapper">
+        <img class="product-image" src="C:\Users\delco\OneDrive\Imágenes\movil.jpg" alt="Botón de Alerta">
+            </div>
+</section>
+
+<section>
+    <h2>¿Cómo funciona?</h2>
+    <p>La pulsera SafeBand utiliza un botón de alerta fácil de presionar, junto con un sistema de GPS y Bluetooth para proporcionar seguridad y tranquilidad. Al presionar el botón, se envía una señal de emergencia a los familiares, que pueden ver la ubicación exacta de la persona en su teléfono móvil. Con un diseño cómodo y discreto, SafeBand es la solución perfecta para garantizar la seguridad de tus seres queridos.</p>
+    <div class="image-wrapper">
+        <img class="product-image" src="C:\Users\delco\OneDrive\Imágenes\final.png" alt="Funcionamiento de la pulsera">
+        
+    </div>
+</section>
+
+<section>
+    <h2>Contáctanos</h2>
+    <p>Si tienes preguntas o deseas más información sobre SafeBand, no dudes en ponerte en contacto con nosotros.</p>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar Mensaje">
+    </form>
+</section>
+
+<section>
+    <a class="cta-button" href="#">Comprar Ahora</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 SafeBand. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
